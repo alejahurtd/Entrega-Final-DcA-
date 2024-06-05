@@ -1,0 +1,49 @@
+/* Default styles for screens wider than 1023px */
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2%;
+}
+
+.icon {
+	display: flex;
+	align-items: center;
+}
+
+.logo-completo {
+	height: 40px;
+}
+
+.right {
+	display: flex;
+	align-items: center;
+}
+
+.icons {
+	height: 40px;
+	margin-left: 0rem;
+}
+
+.user {
+	height: 40px;
+	margin-left: 1rem;
+}
+
+@media (max-width: 768px) {
+	.menu-bar {
+		justify-content: center;
+		padding: 2.5rem;
+		padding-bottom: 0.5rem;
+	}
+
+	.logo img {
+		height: 35px;
+		padding-left: 1rem;
+	}
+	.user,
+	.icons {
+		display: none; /* Ocultar iconos y barra  */
+	}
+}
